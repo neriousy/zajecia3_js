@@ -8,11 +8,7 @@ function isHappyNumber(x){
         }
         
         while(value >= 1){
-            if(value >= 10){
-                newValue += Math.pow((value%10), 2);    
-            }else{
-                newValue += Math.pow(value, 2);
-            }
+            newValue += Math.pow((value%10), 2);    
             value = parseInt(value / 10);
             
         }
