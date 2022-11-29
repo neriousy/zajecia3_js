@@ -5,9 +5,9 @@ function isOdd(x){
     return true;
 }
 
-function isEven(x){
+const isEven = (x) =>{
     if(x%2 == 0){
-        return true;
+        return true
     }
     return false;
 }
